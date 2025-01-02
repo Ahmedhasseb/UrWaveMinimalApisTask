@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\UrWave.csproj": {}
+    "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\UrWave.csproj": {}
   },
   "projects": {
-    "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\UrWave.csproj": {
+    "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\UrWave.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\UrWave.csproj",
+        "projectUniqueName": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\UrWave.csproj",
         "projectName": "UrWave",
-        "projectPath": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\UrWave.csproj",
+        "projectPath": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\UrWave.csproj",
         "packagesPath": "C:\\Users\\Al-Quods\\.nuget\\packages\\",
-        "outputPath": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\obj\\",
+        "outputPath": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

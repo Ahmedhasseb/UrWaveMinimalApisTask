@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\",
+  "WorkspaceRootPath": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\testing project back\\urwave\\urwave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\testing project back\\urwave\\urwave\\middelware\\errorhandalingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\middelware\\errorhandalingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\testing project back\\urwave\\urwave\\featuers\\product\\endpoints\\mapproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\urwaveminimalapistask\\urwave-back\\urwave\\featuers\\product\\endpoints\\mapproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\featuers\\product\\endpoints\\mapproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\testing project back\\urwave\\urwave\\featuers\\product\\vailditors\\productvailditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\urwaveminimalapistask\\urwave-back\\urwave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\urwaveminimalapistask\\urwave-back\\urwave\\middelware\\errorhandalingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\middelware\\errorhandalingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\urwaveminimalapistask\\urwave-back\\urwave\\featuers\\product\\vailditors\\productvailditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\featuers\\product\\vailditors\\productvailditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\testing project back\\urwave\\urwave\\featuers\\product\\filterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|g:\\iti\\backend\\urwaveminimalapistask\\urwave-back\\urwave\\featuers\\product\\filterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BBA3EE2-3927-4091-80CA-8E2207FD3015}|UrWave\\UrWave.csproj|solutionrelative:urwave\\featuers\\product\\filterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +38,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Program.cs",
+              "DocumentMoniker": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Program.cs",
               "RelativeDocumentMoniker": "UrWave\\Program.cs",
-              "ToolTip": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Program.cs",
+              "ToolTip": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Program.cs",
               "RelativeToolTip": "UrWave\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T23:03:57.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T23:03:57.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ErrorHandalingMiddleWare.cs",
-              "DocumentMoniker": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
+              "DocumentMoniker": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
               "RelativeDocumentMoniker": "UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
-              "ToolTip": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
+              "ToolTip": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
               "RelativeToolTip": "UrWave\\MiddelWare\\ErrorHandalingMiddleWare.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T23:03:01.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T23:03:01.36Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductVailditor.cs",
-              "DocumentMoniker": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
+              "DocumentMoniker": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
               "RelativeDocumentMoniker": "UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
-              "ToolTip": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
+              "ToolTip": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
               "RelativeToolTip": "UrWave\\Featuers\\Product\\Vailditors\\ProductVailditor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T19:21:50.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T19:21:50.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MapProduct.cs",
-              "DocumentMoniker": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
+              "DocumentMoniker": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
               "RelativeDocumentMoniker": "UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
-              "ToolTip": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
+              "ToolTip": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
               "RelativeToolTip": "UrWave\\Featuers\\Product\\EndPoints\\MapProduct.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAewBIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAnwGwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T19:07:44.645Z",
               "EditorCaption": ""
@@ -92,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FilterParams.cs",
-              "DocumentMoniker": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\FilterParams.cs",
+              "DocumentMoniker": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\FilterParams.cs",
               "RelativeDocumentMoniker": "UrWave\\Featuers\\Product\\FilterParams.cs",
-              "ToolTip": "G:\\ITI\\BackEnd\\Testing project Back\\UrWave\\UrWave\\Featuers\\Product\\FilterParams.cs",
+              "ToolTip": "G:\\ITI\\BackEnd\\UrWaveMinimalApisTask\\UrWave-Back\\UrWave\\Featuers\\Product\\FilterParams.cs",
               "RelativeToolTip": "UrWave\\Featuers\\Product\\FilterParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
