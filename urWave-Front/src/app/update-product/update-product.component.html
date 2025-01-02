@@ -1,0 +1,53 @@
+<div class=" container flex  lg:flex-row md:flex-row  sm:flex-col-reverse gap-2 bg-stone-100 m-4 rounded-lg">
+    <div class="formsModuel basis-3/4  rounded-lg m-2">
+        <form class="w-full" [formGroup]="formGroup" (ngSubmit)="submit()">
+            <!-- Product Name -->
+            <div class="mb-4">
+                <label for="ProductName" class="block font-medium text-gray-700">Product Name</label>
+                <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    type="text" pInputText formControlName="name" placeholder="Enter product name" />
+                <div *ngIf="formGroup.get('name')?.touched && formGroup.get('name')?.invalid"
+                    class="text-red-500 text-sm mt-1">
+                    <span *ngIf="formGroup.get('name')?.errors?.['required']">Product name is required.</span>
+                    <span *ngIf="formGroup.get('name')?.errors?.['maxlength']">Max length is 100 characters.</span>
+                </div>
+            </div>
+
+            <!-- Product Price -->
+            <div class="mb-4">
+                <label for="ProductPrice" class="block font-medium text-gray-700">Product Price</label>
+                <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    type="number" pInputText formControlName="price" placeholder="Enter product price" />
+                <div *ngIf="formGroup.get('price')?.touched && formGroup.get('price')?.invalid"
+                    class="text-red-500 text-sm mt-1">
+                    <span *ngIf="formGroup.get('price')?.errors?.['required']">Product price is required.</span>
+                </div>
+            </div>
+
+            <!-- Product Description -->
+            <div class="mb-4">
+                <label for="ProductDescription" class="block font-medium text-gray-700">Product Description</label>
+                <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    type="text" pInputText formControlName="description" placeholder="Enter product description" />
+                <div *ngIf="formGroup.get('description')?.touched && formGroup.get('description')?.invalid"
+                    class="text-red-500 text-sm mt-1">
+                    <span *ngIf="formGroup.get('description')?.errors?.['required']">Product description is
+                        required.</span>
+                    <span *ngIf="formGroup.get('description')?.errors?.['maxlength']">Max length is 500
+                        characters.</span>
+                </div>
+            </div>
+
+            <div class="button flex justify-start ">
+                <p-button label="Update" type="submit" [disabled]="!isFormChanged||formGroup.invalid" />
+            </div>
+        </form>
+    </div>
+    <div class="imageProduct md:basis-1/4 sm:basis-1/3">
+        <div class=" m-4">
+            <img [src]="DisplayImageProduct" alt="">
+        </div>
+    </div>
+</div>
+
+<p-toast></p-toast>

@@ -1,0 +1,74 @@
+<!-----------------Search------------------------------>
+<div class=" m-5">
+    <input type="text" class="w-full" pInputText placeholder="Search by Name......" (input)="FilterSearch($event)"  />
+    
+    <div>
+        <p>Search By Filter Price</p>
+        <div>
+            <label for="">{{price}}</label>
+        </div>
+    <div>
+        <input type="range" class="w-80" min="799" max="1800"  step="100" [(ngModel)]="price" (change)="updateFilter()" />
+    </div>
+    </div>
+    <button (click)="DeleteProduct(1)">click</button>
+    <div class="button flex justify-end "> 
+        <a [routerLink]="['/AddProduct'] "> <p-button  label="AddProduct"/></a>
+       
+       </div>
+
+<div class="m-4  rounded-lg">
+    <p-table [value]="Products" [tableStyle]="{ 'min-width': '30rem' }">
+        
+        <ng-template pTemplate="header">
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Create At</th>
+                <th>Update </th>
+                <th>Delete</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-products>
+            <tr >
+                <td>{{ products.id }}</td>
+                <td>{{ products.name }}</td>
+                <td>
+                    <img
+                        [src]="products.image"
+                        [alt]="products.name"
+                        class="w-10 rounded"
+                        style="width: 70px;"
+                    />
+                </td>
+                <td>{{ products.description }}</td>
+                <td>{{ products.price }}</td> 
+                <td>{{ products.createAt|date }}</td> 
+                <td><p-button [routerLink]="['/UpdateProduct',products.id]" label="Update"/></td>
+                <td>
+                    
+                        
+                        <p-button (onClick)="confirm2($event,products.id)" label="Delete" severity="danger" [outlined]="true" />
+                    
+                </td>
+                
+                 
+               
+            </tr>
+        </ng-template>
+      
+    </p-table>
+    
+</div>
+
+
+
+<div class="card flex justify-center gap-2 "*ngIf="showDilog">
+    <p-toast  />
+    <p-confirmdialog  />
+    
+</div>
+

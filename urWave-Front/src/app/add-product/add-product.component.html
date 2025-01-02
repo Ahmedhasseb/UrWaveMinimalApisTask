@@ -1,0 +1,94 @@
+<div class="formsModule rounded-lg m-4 bg-gray-100 p-6">
+    <form
+      class="w-full"
+      [formGroup]="formGroup"
+      (ngSubmit)="submit()"
+    >
+      <!-- Product Name -->
+      <div class="mb-4">
+        <label for="ProductName" class="block font-medium text-gray-700">Product Name</label>
+        <input
+          class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          type="text"
+          pInputText
+          formControlName="name"
+          placeholder="Enter product name"
+        />
+        <div *ngIf="formGroup.get('name')?.touched && formGroup.get('name')?.invalid" class="text-red-500 text-sm mt-1">
+          <span *ngIf="formGroup.get('name')?.errors?.['required']">Product name is required.</span>
+          <span *ngIf="formGroup.get('name')?.errors?.['maxlength']">Max length is 100 characters.</span>
+        </div>
+      </div>
+  
+      <!-- Product Price -->
+      <div class="mb-4">
+        <label for="ProductPrice" class="block font-medium text-gray-700">Product Price</label>
+        <input
+          class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          type="number"
+          pInputText
+          formControlName="price"
+          placeholder="Enter product price"
+        />
+        <div *ngIf="formGroup.get('price')?.touched && formGroup.get('price')?.invalid" class="text-red-500 text-sm mt-1">
+          <span *ngIf="formGroup.get('price')?.errors?.['required']">Product price is required.</span>
+        </div>
+      </div>
+  
+      <!-- Product Description -->
+      <div class="mb-4">
+        <label for="ProductDescription" class="block font-medium text-gray-700">Product Description</label>
+        <input
+          class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          type="text"
+          pInputText
+          formControlName="description"
+          placeholder="Enter product description"
+        />
+        <div *ngIf="formGroup.get('description')?.touched && formGroup.get('description')?.invalid" class="text-red-500 text-sm mt-1">
+          <span *ngIf="formGroup.get('description')?.errors?.['required']">Product description is required.</span>
+          <span *ngIf="formGroup.get('description')?.errors?.['maxlength']">Max length is 500 characters.</span>
+        </div>
+      </div>
+  
+      <!-- Product Created At -->
+      <div class="mb-4">
+        <label for="ProductCreate" class="block font-medium text-gray-700">Product Created At</label>
+        <input
+          class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          type="datetime-local"
+          pInputText
+          formControlName="CreateAt"
+        />
+        <div *ngIf="formGroup.get('CreateAt')?.touched && formGroup.get('CreateAt')?.invalid" class="text-red-500 text-sm mt-1">
+          <span *ngIf="formGroup.get('CreateAt')?.errors?.['required']">Creation date is required.</span>
+        </div>
+      </div>
+  
+      <!-- File Upload -->
+      <div class="mb-4">
+        <label class="block font-medium text-gray-700">Upload Image</label>
+        <p-fileupload
+          name="file"
+          [customUpload]="true"
+          (uploadHandler)="onFileUpload($event)"
+          accept="image/*"
+          maxFileSize="1000000"
+          chooseLabel="Select Image"
+        ></p-fileupload>
+        <div *ngIf="!formGroup.get('image')?.value" class="text-red-500 text-sm mt-1">
+          Please upload an image.
+        </div>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="flex justify-center">
+        <p-button
+          label="Add Product"
+          type="submit"
+          [disabled]="formGroup.invalid || !formGroup.get('ImageUrl')?.value"
+        ></p-button>
+      </div>
+    </form>
+  </div>
+  <p-toast></p-toast>
